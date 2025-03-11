@@ -1,0 +1,22 @@
+name: capstone
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - transformers
+      - torch
+      - chromadb
+      - unstructured
+      - langchain
+      - sentence-transformers
+      - pdfminer.six
+      - pi_heif
+      - unstructured_inference
+      - pdf2image
+      - unstructured-pytesseract
+      - bitsandbytes
+      - accelerate
+      - streamlit
